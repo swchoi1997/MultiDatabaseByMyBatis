@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    hikari:
+      test1:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://127.0.0.1:33306/multiTest
+        username: root
+        password: oracle
+      test2:
+        driver-class-name: org.postgresql.Driver
+        jdbc-url: jdbc:postgresql://127.0.0.1:35432/multitest
+        username: oracle
+        password: oracle
+
+
